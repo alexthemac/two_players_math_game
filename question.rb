@@ -5,11 +5,13 @@ class Question
     @num2 = num2
     @sum = num1 + num2
   end
-
+  
+  # Method to print a question
   def print
     "What does #{@num1} plus #{@num2} equal?"
   end
 
+  # Method with easier way to remember name of the answer
   def answer
     @sum
   end
